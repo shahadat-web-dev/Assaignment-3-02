@@ -36,7 +36,7 @@
                 <div class="flex gap-5 max-[640px]:hidden">
                     <div class="flex gap-4 mt-1 max-[992px]:hidden">
                         <img class="w-10 h-10" src="images/search.png" alt="">
-                        <img class="w-10 h-10" src="images/shopping.png" alt="">
+                        <img class="w-10 h-10" src="images/card.png" alt="">
                     </div>
                     <div class="border-2 border-[#179800] rounded-md px-7 py-2 text-xl font-normal">
                         <button>Login</button>
@@ -105,7 +105,7 @@
         </section>
 
         <!-- Arrival & Offers -->
-        <section>
+        <section class="md:mb-80">
             <h2 class=" mt-32 text-[#179800] text-4xl font-semibold">Arrival & Offers</h2>
 
             <!-- card container -->
@@ -126,7 +126,7 @@
                 </div>
 
                 <!-- INDIA GATE CARD-->
-                <div class="md:w-[600px] relative gap-20 bg-[#102861] flex items-center md:px-8 px-5 py-3 md:pr-40 rounded-xl">
+                <div class=" md:w-[600px] relative gap-20 bg-[#102861] flex items-center md:px-8 px-5 py-3 md:pr-40 rounded-xl">
                     <div class="text-center">
                         <img class="md:w-[93px] w-[64px]" src="images//india-gate-logo.png" alt="">
 
@@ -142,28 +142,51 @@
         </section>
 
         <!-- Get Grocery News! -->
-         <section>
-            <div class="md:flex md:mt-40 max-md:text-center md:items-center bg-[#EFEBE3] md:py-12 rounded-xl gap-32">
+         <section class="relative mt-72">        
+         <div class="absolute bottom-0 right-0 left-0 translate-y-52">
+            <div class=" md:flex md:mt-40 max-md:text-center md:items-center bg-[#EFEBE3] md:py-12 rounded-xl gap-32">
                 <div>
                     <img class="md:w-[442px] mx-auto md:h-[348px]
                      w-[232px] h-[182px] " src="images/vegetable-busket.png" alt="">
                 </div>
                 <div>
                     <h2 class="md:text-4xl text-xl font-semibold max-md:text-[#179800]">Get Grocery News!</h2>
-                    <p class="md:text-xl text-base font-normal  mt-5">Exclusive training tips, ticks, product deals and more.</p>
+                    <p class="md:text-xl  text-base font-normal  mt-5 px-5">Exclusive training tips, ticks, product deals and more.</p>
 
                     <input class="md:w-[472px] md:h-[67px] md:py-4 md:pl-5 py-3 max-md:px-14 rounded-xl mt-9" type="email" name="" id="" placeholder="Enter email....">
-                    <div>
+                    <div class="pb-12">
 
                         <button class="bg-[#179800] text-white md:text-xl px-7 py-2 rounded-xl mt-12">Subscribe</button>
                     </div>
                 </div>
             </div>
          </section>
+        </div>
     </main>
-    <!-- footer section -->
-    <footer>
 
+    <!-- footer section -->
+    <footer class=" bg-[#179800] md:-w[1600px] pb-20">
+        
+        <div class="md:flex container mx-auto md:px-32 px-4 justify-between pt-80 items-center">
+            <div>
+                <img src="images/logo-footer.png" alt="">
+                <p class="text-xl font-normal text-white mt-3">Discover a world of treats, toys, and <br>essentials  handpicked for your furry <br>friends</p>
+            </div>
+            <div class="font-normal text-xl text-white">
+                <h3>Product</h3>
+                <h3>Services</h3>
+                <h3>Contactus</h3> 
+            </div>
+            <div>
+                <h3 class="font-normal text-base  text-white">Follow Us</h3>
+                <div class="flex mt-1">
+                    <img class="w-[23px] h-[23px]" src="images/facebook.png" alt="">
+                    <img class="w-[23px] h-[23px]" src="images/ins.png" alt="">
+                    <img class="w-[23px] h-[23px]" src="images/in.png" alt="">
+                    <img class="w-[23px] h-[23px]" src="images/youtube.png" alt="">
+                </div>
+            </div>
+        </div>
     </footer>
 
 </body>
